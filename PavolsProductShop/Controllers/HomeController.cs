@@ -5,9 +5,9 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using PavolsProductShop.Models;
+using EcomCandyShop.Models;
 
-namespace PavolsProductShop.Controllers
+namespace EcomCandyShop.Controllers
 {
     public class HomeController : Controller
     {

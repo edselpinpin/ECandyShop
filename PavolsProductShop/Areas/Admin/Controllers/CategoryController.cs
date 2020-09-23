@@ -5,9 +5,9 @@ using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices.WindowsRuntime;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using PavolsProductShop.Models;
+using EcomCandyShop.Models;
 
-namespace PavolsProductShop.Area.Admin.Controllers
+namespace EcomCandyShop.Area.Admin.Controllers
 {
     [Area("Admin")]
 
@@ -26,7 +26,7 @@ namespace PavolsProductShop.Area.Admin.Controllers
            
             return View();
         }
-        [Route("[area]/Categories/{id?}")]
+        [Route("[area]/Category/{id?}")]
         public IActionResult List()
         {
             var categories = context.Categories.OrderBy(c => c.CategoryID).ToList();

@@ -14,20 +14,20 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
 #line 1 "C:\Users\Edsel\Documents\GitHub\EcomCandyShop\PavolsProductShop\Views\_ViewImports.cshtml"
-using PavolsProductShop;
+using EcomCandyShop;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 2 "C:\Users\Edsel\Documents\GitHub\EcomCandyShop\PavolsProductShop\Views\_ViewImports.cshtml"
-using PavolsProductShop.Models;
+using EcomCandyShop.Models;
 
 #line default
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"85fd43fb4343201a9e975647a901026bbf66bd08", @"/Views/Home/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7c3bfa396a65d749e45cefe59e4afce32c283e87", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"b326e1dc9f25a4475faef219dde7af19a221c8a1", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-controller", "Product", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -69,7 +69,7 @@ using PavolsProductShop.Models;
 #line hidden
 #nullable disable
             WriteLiteral("\r\n    <h1>Welocome To Pavols Sweet Store</h1>\r\n    <div class=\"row\">\r\n        <div class=\"col-sm-4\">\r\n               <div class=\"list-group\" >\r\n                   ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "85fd43fb4343201a9e975647a901026bbf66bd085074", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "85fd43fb4343201a9e975647a901026bbf66bd085066", async() => {
                 WriteLiteral("View our Proucts");
             }
             );
@@ -88,7 +88,7 @@ using PavolsProductShop.Models;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                   ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "85fd43fb4343201a9e975647a901026bbf66bd086547", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "85fd43fb4343201a9e975647a901026bbf66bd086539", async() => {
                 WriteLiteral("About us");
             }
             );

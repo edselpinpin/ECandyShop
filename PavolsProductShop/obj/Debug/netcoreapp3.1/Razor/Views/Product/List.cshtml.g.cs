@@ -14,20 +14,20 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
 #line 1 "C:\Users\Edsel\Documents\GitHub\EcomCandyShop\PavolsProductShop\Views\_ViewImports.cshtml"
-using PavolsProductShop;
+using EcomCandyShop;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 2 "C:\Users\Edsel\Documents\GitHub\EcomCandyShop\PavolsProductShop\Views\_ViewImports.cshtml"
-using PavolsProductShop.Models;
+using EcomCandyShop.Models;
 
 #line default
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"f286c1863cbd66c1afacb65449d73392005e241f", @"/Views/Product/List.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7c3bfa396a65d749e45cefe59e4afce32c283e87", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"b326e1dc9f25a4475faef219dde7af19a221c8a1", @"/Views/_ViewImports.cshtml")]
     public class Views_Product_List : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<List<Product>>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-controller", "Product", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -72,7 +72,7 @@ using PavolsProductShop.Models;
 #line hidden
 #nullable disable
             WriteLiteral("\r\n<h1>Product List</h1>\r\n<div class=\"row\">\r\n    <div class=\"col-m-2\">\r\n        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f286c1863cbd66c1afacb65449d73392005e241f6192", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f286c1863cbd66c1afacb65449d73392005e241f6184", async() => {
                 WriteLiteral("All");
             }
             );
@@ -115,7 +115,7 @@ AddHtmlAttributeValue("\r\n         ", 232, ViewBag.SelectedCategoryName == "All
 #line hidden
 #nullable disable
             WriteLiteral("                ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f286c1863cbd66c1afacb65449d73392005e241f9010", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f286c1863cbd66c1afacb65449d73392005e241f9002", async() => {
 #nullable restore
 #line 15 "C:\Users\Edsel\Documents\GitHub\EcomCandyShop\PavolsProductShop\Views\Product\List.cshtml"
                                                                                    Write(category.Name);
@@ -212,7 +212,7 @@ AddHtmlAttributeValue("\r\n                 ", 550, ViewBag.SelectedCategoryName
 #line hidden
 #nullable disable
             WriteLiteral("</td>\r\n                        <td>\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f286c1863cbd66c1afacb65449d73392005e241f13855", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f286c1863cbd66c1afacb65449d73392005e241f13847", async() => {
                 WriteLiteral("View Details");
             }
             );
@@ -256,7 +256,7 @@ AddHtmlAttributeValue("\r\n                 ", 550, ViewBag.SelectedCategoryName
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("\r\n                        </td>\r\n                        <td>\r\n                            ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f286c1863cbd66c1afacb65449d73392005e241f17162", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f286c1863cbd66c1afacb65449d73392005e241f17154", async() => {
                 WriteLiteral("Add to Cart");
             }
             );
@@ -297,7 +297,7 @@ AddHtmlAttributeValue("\r\n                 ", 550, ViewBag.SelectedCategoryName
 #line hidden
 #nullable disable
             WriteLiteral("            </tbody>\r\n        </table>\r\n    </div>\r\n </div>\r\n<br/>\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f286c1863cbd66c1afacb65449d73392005e241f19942", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f286c1863cbd66c1afacb65449d73392005e241f19934", async() => {
                 WriteLiteral("Home");
             }
             );

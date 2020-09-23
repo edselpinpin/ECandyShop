@@ -8,9 +8,9 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using PavolsProductShop.Models;
+using EcomCandyShop.Models;
 
-namespace PavolsProductShop
+namespace EcomCandyShop
 {
     public class Startup
     {

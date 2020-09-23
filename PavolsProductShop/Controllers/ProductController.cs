@@ -5,10 +5,10 @@ using System.Reflection.Metadata.Ecma335;
 using System.Runtime.InteropServices.WindowsRuntime;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using PavolsProductShop.Models;
+using EcomCandyShop.Models;
 
 
-namespace PavolsProductShop.Controllers
+namespace EcomCandyShop.Controllers
 {
     public class ProductController : Controller
     {

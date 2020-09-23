@@ -14,20 +14,20 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
 #line 1 "C:\Users\Edsel\Documents\GitHub\EcomCandyShop\PavolsProductShop\Areas\Admin\Views\_ViewImports.cshtml"
-using PavolsProductShop;
+using EcomCandyShop;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 2 "C:\Users\Edsel\Documents\GitHub\EcomCandyShop\PavolsProductShop\Areas\Admin\Views\_ViewImports.cshtml"
-using PavolsProductShop.Models;
+using EcomCandyShop.Models;
 
 #line default
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"138fab2b40306303a1eef47e43e04378e7e33de3", @"/Areas/Admin/Views/Category/List.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7c3bfa396a65d749e45cefe59e4afce32c283e87", @"/Areas/Admin/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"b326e1dc9f25a4475faef219dde7af19a221c8a1", @"/Areas/Admin/Views/_ViewImports.cshtml")]
     public class Areas_Admin_Views_Category_List : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<List<Category>>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("asp-controller", "Category", global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -99,7 +99,7 @@ using PavolsProductShop.Models;
 #line hidden
 #nullable disable
             WriteLiteral("</td>\r\n                    <td>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "138fab2b40306303a1eef47e43e04378e7e33de35987", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "138fab2b40306303a1eef47e43e04378e7e33de35979", async() => {
                 WriteLiteral("Update");
             }
             );
@@ -132,7 +132,7 @@ using PavolsProductShop.Models;
             Write(__tagHelperExecutionContext.Output);
             __tagHelperExecutionContext = __tagHelperScopeManager.End();
             WriteLiteral("</td>\r\n                    <td>");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "138fab2b40306303a1eef47e43e04378e7e33de38442", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "138fab2b40306303a1eef47e43e04378e7e33de38434", async() => {
                 WriteLiteral("Delete");
             }
             );
@@ -175,7 +175,7 @@ using PavolsProductShop.Models;
 #line hidden
 #nullable disable
             WriteLiteral("        </tbody>\r\n    </table>\r\n    ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "138fab2b40306303a1eef47e43e04378e7e33de311180", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "138fab2b40306303a1eef47e43e04378e7e33de311172", async() => {
                 WriteLiteral("Add New Category");
             }
             );

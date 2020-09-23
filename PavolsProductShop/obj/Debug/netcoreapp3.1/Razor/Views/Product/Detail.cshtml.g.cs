@@ -14,20 +14,20 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
 #line 1 "C:\Users\Edsel\Documents\GitHub\EcomCandyShop\PavolsProductShop\Views\_ViewImports.cshtml"
-using PavolsProductShop;
+using EcomCandyShop;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 2 "C:\Users\Edsel\Documents\GitHub\EcomCandyShop\PavolsProductShop\Views\_ViewImports.cshtml"
-using PavolsProductShop.Models;
+using EcomCandyShop.Models;
 
 #line default
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"19e035e0df7625a7a5280644a408d1e730ecf941", @"/Views/Product/Detail.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"7c3bfa396a65d749e45cefe59e4afce32c283e87", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"b326e1dc9f25a4475faef219dde7af19a221c8a1", @"/Views/_ViewImports.cshtml")]
     public class Views_Product_Detail : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<Product>
     {
         private static readonly global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute __tagHelperAttribute_0 = new global::Microsoft.AspNetCore.Razor.TagHelpers.TagHelperAttribute("class", new global::Microsoft.AspNetCore.Html.HtmlString("img-fluid center-block"), global::Microsoft.AspNetCore.Razor.TagHelpers.HtmlAttributeValueStyle.DoubleQuotes);
@@ -69,7 +69,7 @@ using PavolsProductShop.Models;
 #line hidden
 #nullable disable
             WriteLiteral("\r\n<h1>\r\n    Product Detail\r\n</h1>\r\n<div class=\"row\">\r\n    <div class=\"col-sm-4\">\r\n        ");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "19e035e0df7625a7a5280644a408d1e730ecf9414932", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("img", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.SelfClosing, "19e035e0df7625a7a5280644a408d1e730ecf9414924", async() => {
             }
             );
             __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -150,7 +150,7 @@ AddHtmlAttributeValue("", 205, Model.Name, 205, 11, false);
 #line hidden
 #nullable disable
             WriteLiteral("\r\n         </tr>\r\n        </table>\r\n\r\n    </div>\r\n</div>\r\n");
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "19e035e0df7625a7a5280644a408d1e730ecf9419038", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "19e035e0df7625a7a5280644a408d1e730ecf9419030", async() => {
                 WriteLiteral("Home");
             }
             );

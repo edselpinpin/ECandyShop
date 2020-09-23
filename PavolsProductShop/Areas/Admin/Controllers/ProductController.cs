@@ -5,9 +5,9 @@ using System.Runtime.InteropServices.WindowsRuntime;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
-using PavolsProductShop.Models;
+using EcomCandyShop.Models;
 
-namespace PavolsProductShop.Areas.Admin.Controllers
+namespace EcomCandyShop.Areas.Admin.Controllers
 {
     [Area("Admin")]
     public class ProductController : Controller

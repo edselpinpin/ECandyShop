@@ -1,6 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore.Migrations;
 
-namespace PavolsProductShop.Migrations
+namespace EcomCandyShop.Migrations
 {
     public partial class init : Migration
     {

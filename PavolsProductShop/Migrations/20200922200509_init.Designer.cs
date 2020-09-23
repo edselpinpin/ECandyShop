@@ -4,9 +4,9 @@ using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
 using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
-using PavolsProductShop.Models;
+using EcomCandyShop.Models;
 
-namespace PavolsProductShop.Migrations
+namespace EcomCandyShop.Migrations
 {
     [DbContext(typeof(ShopContext))]
     [Migration("20200922200509_init")]
@@ -20,7 +20,7 @@ namespace PavolsProductShop.Migrations
                 .HasAnnotation("Relational:MaxIdentifierLength", 128)
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("PavolsProductShop.Models.Category", b =>
+            modelBuilder.Entity("EcomCandyShop.Models.Category", b =>
                 {
                     b.Property<int>("CategoryID")
                         .ValueGeneratedOnAdd()
@@ -58,7 +58,7 @@ namespace PavolsProductShop.Migrations
                         });
                 });
 
-            modelBuilder.Entity("PavolsProductShop.Models.Product", b =>
+            modelBuilder.Entity("EcomCandyShop.Models.Product", b =>
                 {
                     b.Property<int>("ProductID")
                         .ValueGeneratedOnAdd()
@@ -112,9 +112,9 @@ namespace PavolsProductShop.Migrations
                         });
                 });
 
-            modelBuilder.Entity("PavolsProductShop.Models.Product", b =>
+            modelBuilder.Entity("EcomCandyShop.Models.Product", b =>
                 {
-                    b.HasOne("PavolsProductShop.Models.Category", "Category")
+                    b.HasOne("EcomCandyShop.Models.Category", "Category")
                         .WithMany()
                         .HasForeignKey("CategoryID")
                         .OnDelete(DeleteBehavior.Cascade)

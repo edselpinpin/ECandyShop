@@ -6,7 +6,7 @@ using System.Reflection.Metadata.Ecma335;
 using System.Security.Permissions;
 using System.Threading.Tasks;
 
-namespace PavolsProductShop.Models
+namespace EcomCandyShop.Models
 {
     public class ShopContext : DbContext
     {
