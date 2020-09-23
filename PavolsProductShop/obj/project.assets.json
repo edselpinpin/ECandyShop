@@ -5677,11 +5677,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Edsel\\Documents\\GitHub\\PavolsProductShop\\PavolsProductShop.csproj",
+      "projectUniqueName": "C:\\Users\\Edsel\\Documents\\GitHub\\EcomCandyShop\\PavolsProductShop\\PavolsProductShop.csproj",
       "projectName": "PavolsProductShop",
-      "projectPath": "C:\\Users\\Edsel\\Documents\\GitHub\\PavolsProductShop\\PavolsProductShop.csproj",
+      "projectPath": "C:\\Users\\Edsel\\Documents\\GitHub\\EcomCandyShop\\PavolsProductShop\\PavolsProductShop.csproj",
       "packagesPath": "C:\\Users\\Edsel\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Edsel\\Documents\\GitHub\\PavolsProductShop\\obj\\",
+      "outputPath": "C:\\Users\\Edsel\\Documents\\GitHub\\EcomCandyShop\\PavolsProductShop\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
