@@ -1,0 +1,49 @@
+﻿@model List<Product>
+@{
+    ViewBag.Title = "Product List";
+}
+
+<h1>Product List</h1>
+<div class="row">
+    <div class="col-m-2">
+        <a asp-controller="Product" asp-action="List" asp-route-id="All" class="list-group-item
+         @(ViewBag.SelectedCategoryName == "All" ?  "active" : " " )">All</a>
+        <div class="list-group active">
+            @foreach (Category category in ViewBag.AllCategories)
+            {
+                <a asp-controller="Product" asp-action="List" asp-route-id="@category.Name" class="list-group-item
+                 @(ViewBag.SelectedCategoryName == category.Name ?  "active" : " " )  ">@category.Name</a>
+            }
+        </div>
+    </div>
+
+    <div class="col-sm-10">
+        <table class="table table-bordered table-striped  ">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th></th>
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var product in Model)
+                {
+                    <tr>
+                        <td>@product.Name</td>
+                        <td>@product.Price.ToString("C")</td>
+                        <td>
+                            <a asp-controller="Product" asp-action="Detail" asp-route-id="@product.ProductID" asp-route-slug="@product.Slug">View Details</a>
+                        </td>
+                        <td>
+                            <a asp-controller="Cart" asp-action="Add" asp-route-slug="@product.Slug">Add to Cart</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+ </div>
+<br/>
+<a asp-controller="Home" asp-action="Index" class="btn btn-outline-primary">Home</a>
