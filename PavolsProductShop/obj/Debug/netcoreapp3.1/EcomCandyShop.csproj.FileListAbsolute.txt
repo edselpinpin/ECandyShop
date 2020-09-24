@@ -82,3 +82,7 @@ C:\Users\Edsel\Documents\GitHub\EcomCandyShop\PavolsProductShop\obj\Debug\netcor
 C:\Users\Edsel\Documents\GitHub\EcomCandyShop\PavolsProductShop\obj\Debug\netcoreapp3.1\EcomCandyShop.genruntimeconfig.cache
 C:\Users\Edsel\Documents\GitHub\EcomCandyShop\PavolsProductShop\obj\Debug\netcoreapp3.1\EcomCandyShop.csprojAssemblyReference.cache
 C:\Users\Edsel\Documents\GitHub\EcomCandyShop\PavolsProductShop\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Category\AddUpdate.cshtml.g.cs
+C:\Users\Edsel\Documents\GitHub\EcomCandyShop\PavolsProductShop\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Category\Delete.cshtml.g.cs
+C:\Users\Edsel\Documents\GitHub\EcomCandyShop\PavolsProductShop\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Product\List.cshtml.g.cs
+C:\Users\Edsel\Documents\GitHub\EcomCandyShop\PavolsProductShop\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Product\AddUpdate.cshtml.g.cs
+C:\Users\Edsel\Documents\GitHub\EcomCandyShop\PavolsProductShop\obj\Debug\netcoreapp3.1\Razor\Areas\Admin\Views\Product\Delete.cshtml.g.cs

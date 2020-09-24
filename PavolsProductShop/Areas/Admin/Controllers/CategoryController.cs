@@ -63,7 +63,7 @@ namespace EcomCandyShop.Area.Admin.Controllers
                     context.Categories.Update(category);
                 }
                 context.SaveChanges();
-                return RedirectToAction("List", "Categoery");
+                return RedirectToAction("List", "Category");
             }
             else
             {
@@ -74,26 +74,20 @@ namespace EcomCandyShop.Area.Admin.Controllers
         [HttpGet]
         public IActionResult Delete (int id)
         {
-            var category = context.Categories.Find(id);
-            return View(category);
+           var category = context.Categories.Find(id);
+           return View(category);
+         
 
-       }
+        }
         [HttpPost]
         public IActionResult Delete(Category category)
         {
            
-            if (category != null)
-            {
+            
                 context.Categories.Remove(category);
                 context.SaveChanges();
-                return RedirectToAction("List", "Categoery");
-            }
-            else
-            {
-                ViewBag.Action = "Save";
-                return View("AddUpdate");
-
-            }
+                return RedirectToAction("List", "Category");
+           
         }
 
     }

@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using EcomCandyShop.Models;
+using System.Runtime.CompilerServices;
 
 namespace EcomCandyShop.Areas.Admin.Controllers
 {
@@ -38,10 +39,16 @@ namespace EcomCandyShop.Areas.Admin.Controllers
             {
                 products = context.Products.Where(p => p.Category.Name == id).ToList();
             }
-            ViewBag.Categories = categories;
-            ViewBag.SelectedCategoryName = id;
 
-            return ViewBag(products);
+            var model = new ProductListViewModel
+            {
+                Categories = categories,
+                Products = products,
+                SelectedCategory = id // id here is the selected category 
+            };
+            
+
+            return View(model);
 
         }
 
@@ -69,15 +76,19 @@ namespace EcomCandyShop.Areas.Admin.Controllers
         {
             if (ModelState.IsValid)
             {
+                var userMessage = "";
                 if (product.ProductID == 0) // add 
                 {
                     context.Products.Add(product);
+                    userMessage = $"You just added a product {product.Name}";
                 }
                 else // update 
                 {
                     context.Products.Update(product);
+                    userMessage = $"You just updated product {product.Name}";
                 }
                 context.SaveChanges();
+                TempData["UserMessage"] = userMessage;
                 return RedirectToAction("List", "Product");
             }
             else
@@ -92,7 +103,7 @@ namespace EcomCandyShop.Areas.Admin.Controllers
         public IActionResult Delete(int id)
         {
             var product = context.Products.FirstOrDefault(p => p.ProductID == id);
-            return ViewBag(product);
+            return View(product);
         }
 
         [HttpPost]

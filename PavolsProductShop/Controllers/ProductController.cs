@@ -48,10 +48,6 @@ namespace EcomCandyShop.Controllers
                
                 return View(product);
 
-
-         
-            // Product product = Database.GetProduct(slugLink*/);
-            // return View();
         }
         [Route("[controller]s/{id?}")]
         public IActionResult List(string id = "All") // Id is the name tof the catagory used in the filtering 
@@ -66,10 +62,14 @@ namespace EcomCandyShop.Controllers
             else
                 products = context.Products.Where(p => p.Category.Name == id).OrderBy(p => p.ProductID).ToList();
 
-            ViewBag.SelectedCategoryName = id;
-            ViewBag.AllCategories = categories;
+            var model = new ProductListViewModel
+            {
+                Categories = categories,
+                Products = products,
+                SelectedCategory = id // id here is the selected category 
+            };
 
-            return View(products);
+            return View(model);
 
         }
     }
