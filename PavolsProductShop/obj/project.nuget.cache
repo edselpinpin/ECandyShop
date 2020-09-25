@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "WsIgZKAw8Wvornw06ALZWWOweMyuyzK5R0Ezh9ZsqAH/HYxizGheSaCsdfACOnBBJqg9BZd4IMOoe6mn0l6Ciw==",
+  "dgSpecHash": "QmGFsb+RnL2yDekS5253VoB10GMVSqzEZLUzU48Ltv6TQ6b2UTQHm+gibxJfpmuwIwIx5aJ54xklOCq7DBYUbw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Edsel\\Documents\\GitHub\\EcomCandyShop\\PavolsProductShop\\EcomCandyShop.csproj",
+  "projectFilePath": "C:\\Users\\Edsel\\Documents\\GitHub\\ECandyShop\\PavolsProductShop\\EcomCandyShop.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Edsel\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\Edsel\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
