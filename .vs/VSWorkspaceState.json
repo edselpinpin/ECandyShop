@@ -1,8 +1,12 @@
 {
   "ExpandedNodes": [
     "",
-    "\\PavolsProductShop"
+    "\\PavolsProductShop",
+    "\\PavolsProductShop\\Areas",
+    "\\PavolsProductShop\\Controllers",
+    "\\PavolsProductShop\\Migrations",
+    "\\PavolsProductShop\\wwwroot"
   ],
-  "SelectedNode": "\\PavolsProductShop",
+  "SelectedNode": "\\PavolsProductShop\\EcomCandyShop.sln",
   "PreviewInSolutionExplorer": false
 }
