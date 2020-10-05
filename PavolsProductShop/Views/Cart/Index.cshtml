@@ -1,7 +1,47 @@
-﻿@{ 
-    ViewBag.Title = "Your Cart";
+﻿@model List<BasketListViewModel>
+
+@{
+    ViewBag.Title = "Basket";
 }
 
-<h1>
-    Your Cart is empty
-</h1>
+
+<h1>Basket</h1>
+<div class="row">
+
+
+    <div class="col-sm-10">
+        <table class="table table-bordered table-striped">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Line Total</th>
+                    <th></th>
+                   
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var basket in Model)
+                {
+                    <tr>
+                        <td>@basket.ProductName</td>
+                        <td>@basket.Price.ToString("C")</td>
+                        <td>@basket.Quantity</td>
+                        <td>@string.Format("{0:c}", (basket.Quantity * basket.Price)) </td>
+                        <td><a asp-controller="Cart" asp-action="Delete" asp-route-id ="@basket.BasketId" >Remove From Cart</a></td>
+               
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>
+<br/>
+<td colspan="4" style="text-align:left"><strong>Basket Total</strong></td>
+<td>@string.Format("{0:c}", (from basket in Model select basket.Price * basket.Quantity).Sum())</td>
+<br/>
+<a asp-controller="Home" asp-action="Index" class="btn btn-outline-primary">Home</a>
+
+
+

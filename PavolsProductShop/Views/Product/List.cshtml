@@ -5,7 +5,7 @@
 
 <h1>Product List</h1>
 <div class="row">
-    <div class="col-m-2">
+    <div class="col-2 col-sm-3">
         <a asp-controller="Product" asp-action="List" asp-route-id="All" class="list-group-item
          @(Model.CheckActiveCategory("All"))">All</a>
         <div class="list-group active">
@@ -17,7 +17,7 @@
         </div>
     </div>
 
-    <div class="col-sm-10">
+    <div class="col-10 col-sm-9">
         <table class="table table-bordered table-striped  ">
             <thead>
                 <tr>
@@ -37,7 +37,7 @@
                             <a asp-controller="Product" asp-action="Detail" asp-route-id="@product.ProductID" asp-route-slug="@product.Slug">View Details</a>
                         </td>
                         <td>
-                            <a asp-controller="Cart" asp-action="Add" asp-route-slug="@product.Slug">Add to Cart</a>
+                            <a asp-controller="Cart" asp-action="Add" asp-route-id="@product.ProductID">Add to Cart</a>
                         </td>
                     </tr>
                 }

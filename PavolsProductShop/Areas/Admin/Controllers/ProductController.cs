@@ -26,6 +26,7 @@ namespace EcomCandyShop.Areas.Admin.Controllers
         {
             return RedirectToAction("List", "Product");
         }
+
         [Route("[area]/[controller]s/{id?}")]
         public IActionResult List(string id = "All")
         {

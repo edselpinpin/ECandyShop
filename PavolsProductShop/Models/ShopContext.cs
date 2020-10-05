@@ -19,6 +19,8 @@ namespace EcomCandyShop.Models
         public DbSet<Category> Categories { get; set; }
         public DbSet<Product> Products { get; set; }
 
+       
+
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
           base.OnModelCreating(modelBuilder);
@@ -29,7 +31,7 @@ namespace EcomCandyShop.Models
            new Category { CategoryID = 3, Name = "Gummy Candy" },
            new Category { CategoryID = 4, Name = "Halloween Candy" },
            new Category { CategoryID = 5, Name = "Hard Candy" }
-       );
+          );
 
             modelBuilder.Entity<Product>().HasData(
               new Product
@@ -153,6 +155,8 @@ namespace EcomCandyShop.Models
                   Price = (decimal)5.55
               });
         }
+
+        public DbSet<Basket> Basket { get; set; }
 
     }
 }
