@@ -5,7 +5,7 @@
 
 <h1>@ViewBag.Title</h1>
 <div class="row">
-    <div class="col-m-2">
+    <div class="col-sm-2">
         <a asp-controller="Product" asp-action="List" asp-route-id="All" class="list-group-item
          @(Model.CheckActiveCategory("All"))">All</a>
         <div class="list-group active">
@@ -43,11 +43,11 @@
                 }
             </tbody>
         </table>
-        
-         @{
-             string userMsg = TempData?["UserMessage"]?.ToString() ?? "";
-         }
-            
+
+        @{
+            string userMsg = TempData?["UserMessage"]?.ToString() ?? "";
+        }
+
         @if (userMsg != "")
         {
             <div class="text-success">@TempData["UserMessage"]</div>
@@ -56,6 +56,7 @@
 
 
         <a asp-controller="Product" asp-action="Add" class="btn btn-primary">Add new Product</a>
+        <a asp-controller="Home" asp-action="Index" class="btn btn-primary">Back</a>
     </div>
 </div>
 <br />
